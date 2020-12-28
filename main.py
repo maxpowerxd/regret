@@ -1,4 +1,3 @@
-import multiprocessing
 import random
 from progress.bar import IncrementalBar
 
@@ -73,7 +72,6 @@ def get_average_strategy(strategy_sum):
             avg_strategy[a] = 1 / NUM_ACTIONS
     return avg_strategy
 
-num_cores = multiprocessing.cpu_count()
 strategy_sum = train(10, regret_sum, strategy, strategy_sum)
 avg_strategy = get_average_strategy(strategy_sum)
 

@@ -1,4 +1,4 @@
-# regret
+# Regret minimization
 
 This code is a simple translation into Python of the code
 used in "An Introduction to Counterfactual Regret Minimization"
